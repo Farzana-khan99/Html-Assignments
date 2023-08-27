@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin-top: 30px;
+    display:  flex;
+}
+li{
+    list-style: none;
+}
+li{
+    padding-right: 20px;
+    border: 1px solid #000;
+    margin-right: 20px;
+    padding: 8px 20px;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{ 
+     color: dimgrey;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+    width: 60%;
+    line-height: 1.5rem;
+
+}
+h2{
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.music_img img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+figcaption{
+    text-align: left;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
